@@ -13,6 +13,9 @@ func happyBirthday(age: Int) {
 func getAge(name: String) -> Int {
     return 29
 }
+// -> indicates the return type 
+//for arguments, type in argument name first, then argument type ... variable name is a type of String! 
+
 
 // Uncomment to see the error
 /*
@@ -20,6 +23,7 @@ func badGetAge(name: String) -> Int {
     print("\(name) is 29")
 }
 */
+//ERROR: it is missing returns statement!! 
 
 
 let friend = "Emily"
